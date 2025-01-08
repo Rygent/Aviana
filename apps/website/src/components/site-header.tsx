@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { MainAuth } from '@/components/auth/main-auth';
 import { MainNav } from '@/components/main-nav';
 import { MobileNav } from '@/components/mobile-nav';
 import { siteConfig } from '@/config';
@@ -42,6 +43,7 @@ export function SiteHeader() {
 							</Link>
 						</Button>
 					</nav>
+					<MainAuth />
 					<MobileNav />
 				</div>
 			</div>
